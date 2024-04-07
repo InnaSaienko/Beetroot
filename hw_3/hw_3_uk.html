@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Урок 3 (HTML5 Semantic)</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div style="width: 100%;"><img src="" alt="Group's Logo"></div>
+            <ul>
+                <li style="display: inline-block; width: calc(25% - 4px)">
+                    <a href="#dnu">Про ДНУ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside
+            style="display: inline-block; width: calc(22% - 5px); height: 100%; position: absolute; top: 0; margin-top: 120px;">
+            <h1 class="name">Інна Саєнко</h1>
+            <div><img src="./img/resume_photo.jpeg" id="photo" style="width: 120px; align-items: center;">
+                <p>Krurat 9<br />1127JM Delft, Nederlands<br />
+                    +31600000000<br />
+                    inna.saienko@gmail.com
+                </p>
+                <a href="https://www.linkedin.com/">Linkedin>></a>
+            </div>
+            <h2 class="edu">Освіта</h2>
+            <ul>
+                <li><a href="http://www.dnu.dp.ua/en"></a>Менеджмент зовнішньоекономічної діяльності
+                     2009<br />
+                    <strong>Дніпровський національний університет імені Олеся Гончара <em>2000</em></strong>
+                </li>
+                <li><a href="http://"></a>Бухгалтерські курси <em> 2000</em></li>
+                <li><a href="https://www.rocmondriaan.nl"></a>ROC Mondriaan, Nederlads language</li>
+            </ul>
+        </aside>
+        <article style="display: inline-block; width: 70%; margin-left: 30%;">
+            <section>
+                <h2>ПРОФЕСІЙНИЙ ДОСВІД</h2>
+                <h3><strong>AK Дніпроавіа, Жовтень 2000-Грудень 2024</strong></h3>
+                <ul>
+                    <li>Аналіз даних за допомогою математичних моделей, статистичних інструментів та іншого програмного забезпечення</li>
+                    <li>Інтерпретація та прогнозування тенденцій, таких як фінансові ринки та ринки авіабізнесу</li>
+                    <li>Збір даних для оцінки розподілу ресурсів і послуг у компанії</li>
+                </ul>
+                <h3><strong>КБ Приватбанк (Україна), Січень 1900- Червень 2000/strong>
+                </h3>
+                <ul>
+                    <li>Реагування на побудову та підтримку відносин та обслуговування VIP-клієнтами</li>
+                    <li>Узгодження особливих запитів</li>
+                    <li>Надання якісного досвіду</li>
+                </ul>
+            </section>
+            <section>
+                <h2>МОВИ</h2>
+                <ul>
+                    <li>Українська (рідна)</li>
+                    <li>Английська (B1)</li>
+                    <li>Нідерландська (В1)</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="dnu">Про ДНУ</h2>
+                <video src="https://www.youtube.com/watch?v=dEBVe8Ij7JU&list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us"
+                    width="480" controls autoplay muted>Відео про Університет</video>
+                <!-- <audio src=""></audio> -->
+                <p>Дніпровський національний університет імені Олеся Гончара (ДНУ, укр.: Дніпровський національний університет імені
+                    Олеся Гончара) — державний вищий навчальний заклад, розташований у Дніпрі, Україна. Було засновано
+                    у 1918 р. Першими чотирма факультетами були історія та лінгвістика, право, медицина та фізика та
+                    Математика.
+                    Нині ДНУ, як великий класичний університет, включає 14 факультетів формального, природничого та соціального факультетів.
+                    наук. 730 викладачів забезпечують навчання для близько 10 700 студентів (включаючи 130 міжнародних
+                    студенти з майже 30 країн). Університет пропонує 98 програм для здобуття ступеня бакалавра та
+                    магістратури та здійснює підготовку аспірантів за 35 напрямками. Друга вища освіта може
+                    також отримати в ДНУ ім.</p>
+                <div class="mapDnu">
+                    <figure>
+                        <figcaption>Карта</figcaption>
+                        <img src="./img/logo_dnu.png" alt="Oles Honchar logo" style=" width: 10%">
+                    </figure>
+                    <iframe
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+                        frameborder="0" width="300" height="200"></iframe>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer style="margin-top: 500px">
+        <div class="footer">
+            <a href="./hw_3_eng.html" class="eng">English version>></a>
+            <p>@Copyright 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>

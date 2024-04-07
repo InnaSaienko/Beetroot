@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson 3 (HTML5 Semantic)</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div style="width: 100%;"><img src="" alt="Group's Logo"></div>
+            <ul>
+                <li style="display: inline-block; width: calc(25% - 4px)">
+                    <a href="#dnu">About DNU Oles Honchar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside
+            style="display: inline-block; width: calc(22% - 5px); height: 100%; position: absolute; top: 0; margin-top: 120px;">
+            <h1 class="name">Inna Saienko</h1>
+            <div><img src="./img/resume_photo.jpeg" id="photo" style="width: 120px; align-items: center;">
+                <p>Krurat 9<br />1127JM Delft, Nederlands<br />
+                    +31600000000<br />
+                    inna.saienko@gmail.com
+                </p>
+                <a href="https://www.linkedin.com/">Linkedin>></a>
+            </div>
+            <h2 class="edu">EDUCATION</h2>
+            <ul>
+                <li><a href="http://www.dnu.dp.ua/en"></a> Management of Foreign Economic Activity<br />
+                    <strong>Oles Honchar Dnipro National University <em>2000</em></strong>
+                </li>
+                <li><a href="http://"></a>Accountant courses <em> 2000</em></li>
+                <li><a href="https://www.rocmondriaan.nl"></a>ROC Mondriaan, Nederlads language</li>
+            </ul>
+        </aside>
+        <article style="display: inline-block; width: 70%; margin-left: 30%;">
+            <section>
+                <h2>PROFESSIONAL EXPERIENCE</h2>
+                <h3><strong>AC Dniproavia, October 2000-December 2024</strong></h3>
+                <ul>
+                    <li>Analyzing data using mathematical models, statistical tools, and other software</li>
+                    <li>Interpretation and forecast trends, such as of financial and airbisness markets</li>
+                    <li>Collecting data to evaluate how resources and services are distributed within a company</li>
+                </ul>
+                <h3><strong>AS PrivatBank(Ukraine), January 1900- June 2000</strong>
+                </h3>
+                <ul>
+                    <li>Responsible for building and maintaining relationships with VIP clients, customer service</li>
+                    <li>Coordinating special requests</li>
+                    <li>Delivering an excellent all-round experience</li>
+                </ul>
+            </section>
+            <section>
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>Ukranian (native)</li>
+                    <li>English(B1)</li>
+                    <li>Dutch ()</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="dnu">About DNU</h2>
+                <video src="https://www.youtube.com/watch?v=dEBVe8Ij7JU&list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us"
+                    width="480" controls autoplay muted>Our video</video>
+                <!-- <audio src=""></audio> -->
+                <p>Oles Honchar Dnipro National University (DNU, Ukrainian: Дніпровський національний університет імені
+                    Олеся Гончара) is a public higher education institution located in Dnipro, Ukraine. It was founded
+                    in 1918. The first four faculties were History and Linguistics, Law, Medicine, and Physics and
+                    Mathematics.
+                    Nowadays, DNU, as a large classical university, includes 14 faculties in formal, natural and social
+                    sciences. 730 academics provide learning for about 10,700 students (including 130 international
+                    students from nearly 30 countries). The University offers 98 programs for obtaining bachelor’s and
+                    master’s degrees and performs training for PhD-students in 35 fields. Second higher education can
+                    also be obtained at DNU.</p>
+                <div class="mapDnu">
+                    <figure>
+                        <figcaption>Map University</figcaption>
+                        <img src="./img/logo_dnu.png" alt="Oles Honchar logo" style=" width: 10%">
+                    </figure>
+                    <iframe
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+                        frameborder="0" width="300" height="200"></iframe>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer style="margin-top: 500px">
+        <div class="footer">
+            <a href="./hw_3_ukr.html" class="eng">Ukranian version>></a>
+            <p>@Copyright 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
