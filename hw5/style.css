@@ -1,0 +1,10 @@
+.list-item {
+    display: inline-block;
+}
+main {
+    display: block;
+}
+.portfolio-img {
+    display: block;
+    text-align: center;
+}
