@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(239, 239, 239);
+}
+
+.cotainer {
+    width: 795px;
+    height: 507px;
+    margin: 120px auto;
+    background-color: rgb(36, 48, 48);
+    color: rgb(235, 127, 88);
+    font-family: Roboto;
+    font-size: 16px;
+
+}
+
+header,
+footer {
+    width: 795px;
+    height: 85px;
+    background-color: #4A4F56;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.action {
+    margin-top: 40px;
+
+}
+
+.shopping-list {
+    margin: 0 auto;
+    width: 534px;
+    height: calc(45.5px * 6);
+    color: white;
+    background-color: #9B96AC;
+    list-style: none;
+    transition: all 0.1s ease-in;
+    padding-left: 0;
+
+}
+
+.shopping-list label {
+    display: block;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.shopping-list [type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: large;
+    vertical-align: baseline;
+}
+
+.shopping-list .description {
+    font-size: 70%;
+
+}
+
+.shopping-list li:nth-child(odd) {
+    background: #88839e;
+}
+
+.shopping-list li:hover {
+    background: #5d5971;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.shopping-list li:active {
+    background: #eb7e7f;
+}
+
+input[type="checkbox"]:checked~small,
+input[type="checkbox"]:checked~span {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+footer {
+    width: 534px;
+    height: 45px;
+    margin: 34px auto;
+}
+
+footer>p {
+    padding-top: 13px;
+}
