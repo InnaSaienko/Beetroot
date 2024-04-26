@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 3px;
+    font-family: cursive;
+}
+
+.logo {
+    width: calc(30% - 4px);
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.menu {
+    width: calc(50% - 4px);
+    display: inline-block; 
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.menu-item {
+    width: calc(22% - 4px);
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-link {
+    color: rgb(77, 74, 74);
+    font-size: 1.25rem;
+    text-decoration:none;
+    text-align: center;
+}
+.menu-link:hover {
+    color: orange;
+}
+.buttons {
+    width: calc(15% - 4px);
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+button[class*='sign'] {
+    width: 80px;
+    height: 40px;
+    float: right;
+    margin: 0 10px;
+    border: none;
+    border: 1px groove #BCD0E5;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button[class*='sign']:hover {
+    background: orange;
+}
+
