@@ -1,0 +1,11 @@
+:root {
+    --main-font: 300 16px/1.5 'Montserrat';
+    --h2-font: 700 16px/1.5 'Montserrat';
+    --sub-title-font: 700 16px/1.5 'Montserrat';
+    --secondary-title-font: 700 36px/1.5 'Montserrat';
+    --title-font: 700 44px/1.5 'Montserrat';
+    --title-color: #2F281E;
+    --main-color: #544837;
+    --btn-background-color: #FF9900;
+    --border-style:1px groove #BCD0E5;
+}
