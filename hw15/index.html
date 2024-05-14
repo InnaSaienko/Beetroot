@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Productly</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main class="main">
+        <section class="section">
+            <form class="form" autocomplete="off">
+                <h2 class="form__title">Create an Account</h2>
+                <div class="names display-col">
+                    <div class="first-name">
+                        <label for="name" class="form__label">First name</label>
+                        <input type="text" id="name" class="form__input">
+                    </div>
+                    <div class="last-name">
+                        <label for="name" class="form__label">Last name</label>
+                        <input type="text" id="name" class="form__input">
+                    </div>
+                </div>
+                <div class="form__email">
+                    <label for="mail" class="form__label">E-mail<span class="form__label__bottom">We'll never share your
+                            email with anyone else.</span></label>
+                    <input type="email" id="mail" class="form__input" placeholder="Your mail..." required>
+                </div>
+                <div class="form__gender">
+                    <div class="form__gender__item">
+                        <label>
+                            <input class="form__radio__hide" type="radio" name="gender">
+                            <span class="form__radio__span"></span>
+                            Woman
+                        </label>
+                        <label>
+                            <input class="form__radio__hide" type="radio" name="gender">
+                            <span class="form__radio__span"></span>
+                            Man
+                        </label>
+                    </div>
+                </div>
+
+                <div class="adress display-col">
+                    <div class="country">
+                        <label for="name" class="form__label">Country</label>
+                        <select name="country" class="form__select">
+                            <option value="" selected disabled>Your country...</option>
+                            <option value="ukr">Ukraine</option>
+                            <option value="swe">Sweden</option>
+                            <option value="pol">Poland</option>
+                            <option value="fra">France</option>
+                        </select>
+                    </div>
+
+                    <div class="city">
+                        <label for="name" class="form__label">City</label>
+                        <input type="text" id="name" class="form__input">
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="form__btn">Sign In</button>
+                </div>
+                <div class="form__terms">
+                    <p>By clicking the 'Sign Up' button, you confirm that you accept our
+                        <a href="#" class="form__terms__link">Terms of Use</a> and <a href="#"
+                            class="form__terms__link">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="form__log-in">
+                    <p>Have an account?</p>
+                    <a href="#" class="form__log-in__link">Log In</a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
