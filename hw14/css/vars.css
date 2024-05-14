@@ -1,0 +1,7 @@
+:root {
+    --main-font: 400 18px/1.5 'Montserrat';
+    --width-content: 1200px;
+    --font-sidebar: 400 36px/1.5 'Francois One', sans-serif;
+    --title-font: 900 32px/1.5 'PT Sans', sans-serif;
+    --sub-title-font: 300 16px/1.5 'PT Sans', sans-serif;
+}
