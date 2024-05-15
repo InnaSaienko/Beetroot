@@ -1,0 +1,23 @@
+@mixin flex($justify, $align, $gap, $padding, $direction: row) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+    padding: $padding;
+    flex-direction: $direction;
+}
+
+@mixin title($color){
+    font-size: 1.2em;
+    color: $color_title;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@mixin transform($property) {
+    transform: $property;
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transition: $property;
+}
