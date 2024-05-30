@@ -14,8 +14,7 @@
     outline: none;
     overflow: hidden;
     padding: 20px;
-    min-width: 210px;
-    min-height: 60px;
+    gap: 15px;
     font-size: 1.2em;
     font: $font-text;
     letter-spacing: 0.5px;
@@ -33,16 +32,4 @@
     & i.fa-solid.fa-arrow-right {
         color: $color-text;
       }
-}
-
-@mixin box-size ($width, $height) {
-    width: $width;
-    height: $height;
-}
-
-@mixin arrow($width, $height, $color, $margin-left) {
-    min-width: $width;
-    min-height: $height;
-    color: $color;
-    margin-left: $margin-left;
 }
