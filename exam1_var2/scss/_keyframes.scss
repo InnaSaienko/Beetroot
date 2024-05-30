@@ -1,0 +1,16 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) translateX(0);
+    }
+    50% {
+        transform: rotate(180deg) translateX(100%);
+        opacity: 0; /* Зникає на півдорозі */
+    }
+    51% {
+        opacity: 0; /* Продовжує бути невидимим */
+    }
+    100% {
+        transform: rotate(360deg) translateX(0);
+        opacity: 1; /* Повертається на місце та стає видимим */
+    }
+}
