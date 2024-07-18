@@ -1,0 +1,15 @@
+%btn-shared {
+    padding: 16px 41px 17px;
+    margin: 0;
+    text-transform: uppercase;
+    color: $color-black;
+    font-weight: bold;
+    background: $color-white;
+    border: 1px solid $color-main;
+}
+
+%title-common {
+    color: $color-main;
+    line-height: 130%;
+    font: $font-title;
+  }
