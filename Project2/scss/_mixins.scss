@@ -1,0 +1,53 @@
+@mixin flex($justify, $align, $gap, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+    flex-direction: $direction;
+}
+
+@mixin btn-round($position) {
+    position: $position;
+    width: 40px;
+    height: 40px;
+    border: 1px solid $color-white;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+@mixin pseudo-element-before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: $color-white;
+}
+
+@mixin pseudo-element-after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: $color-white;
+}
+
+@mixin slider-dots-style($direction) {
+    display: flex;
+    flex-direction: $direction;
+    width: 50px;
+    height: 300px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin dot-style {
+    width: 10px;
+    height: 10px;
+    border: 2px solid $color-white;
+    border-radius: 50%;
+    margin: 40px 0;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}

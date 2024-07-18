@@ -1,0 +1,95 @@
+@import "mixins";
+@import "vars";
+
+
+.slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.slick-slide {
+    margin: 0 15px;
+}
+
+.slick-slider-dots {
+    position: absolute;
+    @include slider-dots-style(column);
+
+    & .slick-active .custom-dot {
+        background: $color-white;
+    }
+
+    .custom-dot {
+        @include dot-style();
+    }
+}
+
+.slick-arrow,
+.slick-prev {
+    @include btn-round(absolute);
+    font-size: 0;
+    top: 40%;
+    transform: translateY(-58%);
+    z-index: 3;
+    left: -5%;
+
+    &::before {
+        @include pseudo-element-before;
+        top: 25%;
+        left: 42%;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    &::after {
+        @include pseudo-element-after;
+        top: 42%;
+        left: 42%;
+        transform: translateX(-50%) rotate(-45deg);
+    }
+}
+
+.slick-next {
+    left: 102%;
+
+    &::before {
+        top: 45%;
+        left: 60%;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    &::after {
+        top: 28%;
+        left: 60%;
+        transform: translateX(-50%) rotate(-45deg);
+    }
+
+}
+
+.slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.slick-slide {
+    margin: 0 15px;
+}
+
+.latest-news {
+    & .slick-dots {
+        display: flex;
+        gap: 30px;
+        margin: 30px auto;
+
+
+        & button {
+            @include dot-style();
+            font-size: 0;
+        }
+
+        & li.slick-active {
+            button {
+                background-color: $color-white;
+            }
+        }
+    }
+}
